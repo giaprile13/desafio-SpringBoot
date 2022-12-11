@@ -18,9 +18,9 @@ public class Dados implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private UUID id;
+    public UUID id;
     @Column(name = "peso", nullable = false)
-    private Double peso;
+    public Double peso;
     @Column(name = "altura", nullable = false)
-    private Double altura;
+    public Double altura;
 }
